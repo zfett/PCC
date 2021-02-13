@@ -12,6 +12,9 @@ In this diagram, the text "Hello World!" is converted to hex from ASCII and ever
   
 Each pixel block in this image represents 3 ASCII characters.
 
+### Intentions
+When I first came up with the idea for PCC, I had no particular idea in mind for how it could be used. I encourage everyone who's interested in PCC to utilize it wherever they deem fit. I simply thought that storing text and hex data in this way could lead to an interesting result.
+
 ## Addl. Findings
 In one test using a large (996 characters) paragraph, I found that from encoding the ASCII text to a PCC image, a loss of approx. 7.6 percent was found in the PCC image. After conducting additional tests using text of varying lengths and character sets, an average loss of 14.1% can be found after converting the text to a PCC image. However, using short strings of text results in an opposite effect, with the image being larger than the text, as seen in test 2 (the "Hello World!" example).  
 
