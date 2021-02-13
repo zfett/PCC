@@ -1,5 +1,5 @@
 # Pixel Color Cipher (PCC)
-*The Pixel Color Cipher is a method for encoding text or hexadecimal data in an image.*
+*The Pixel Color Cipher is a method for encoding text or hexadecimal data in an image block.*
 
 ## About
 PCC is a cipher method that takes ASCII/Unicode text or hexadecimal data and converts it to a PNG image. Every pixel on the image represents, at max, 3 ASCII letters.  
